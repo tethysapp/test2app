@@ -22,7 +22,7 @@ resource_files = find_all_resource_files(app_package, namespace)
 
 setup(
     name=release_package,
-    version='0.0.5',
+    version='0.0.6',
     description='',
     long_description='',
     keywords='',
