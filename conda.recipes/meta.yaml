@@ -8,8 +8,8 @@ package:
 about:
   author: {{ data.get('author')}}
   description: {{ data.get('description')}}
-  license: "{'name': 'release_package', 'version': '0.0.4', 'description': '', 'long_description': '', 'author': '', 'author_email': '', 'url': 'https://github.com/romer8/test2app', 'license': '', 'tethys_version': '>=4.0.0'}"
-  dev_url: {{ data.get('url') }}
+  license: "{'name': 'release_package', 'version': '0.0.5', 'description': '', 'long_description': '', 'author': '', 'author_email': '', 'url': 'https://github.com/romer8/test2app', 'license': '', 'tethys_version': '>=4.0.0', 'dev_url': 'https://github.com/romer8/test2app.git'}"
+  dev_url: {{ data.get('dev_url') }}
 
 outputs:
   - name: {{ name }}
