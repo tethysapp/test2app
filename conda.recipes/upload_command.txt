@@ -1,1 +1,1 @@
-anaconda upload --force --label dev noarch/*.tar.bz2
+anaconda upload --force --label main --label dev noarch/*.tar.bz2
