@@ -10,11 +10,7 @@ requirements:
   skip: false
   conda:
     channels:
-      - conda-forge
-      - lightsource2-testing
     packages:
-      - chx_configuration
-      - pygithub
 
   pip:
     - cfbuild

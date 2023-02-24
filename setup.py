@@ -15,7 +15,7 @@ resource_files = find_all_resource_files(app_package, TethysAppBase.package_name
 
 setup(
     name=release_package,
-    version='0.0.8',
+    version='0.0.9',
     description='',
     long_description='',
     keywords='',
