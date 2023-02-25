@@ -38,7 +38,7 @@ jobs:
         This is an auto-generated email and this email is not monitored for replies.
         Please send any queries to gromero@aquaveo.com
         '
-          to: 
+          to: gio.busrom@gmail.com
           from: Tethys App Warehouse
       - name: Send mail for failure
         uses: dawidd6/action-send-mail@v2
@@ -51,5 +51,5 @@ jobs:
           subject: 'Tethys App Store: Build Failed for test_app_store_aquaveo'
           # Literal body:
           body: ${{ github.workflow }} of the application at github repository ${{ github.repository }} has failed. Check the logs of the publish job at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          to: 
+          to: gio.busrom@gmail.com
           from: Tethys App Warehouse
