@@ -26,8 +26,6 @@ build:
 requirements:
   build:
   - python
-  run:
-  - chx_configuration
-  - pygithub
+  run: null
 source:
   path: ..
