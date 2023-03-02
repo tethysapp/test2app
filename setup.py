@@ -3,6 +3,7 @@ from setup_helper import find_all_resource_files
 
 
 # -- Apps Definition -- #
+
 namespace = 'tethysapp'
 app_package = 'test2app'
 release_package = f'{namespace}-{app_package}'
