@@ -39,7 +39,7 @@ resource_files = find_all_resource_files(app_package, namespace)
 
 setup(
     name=release_package,
-    version='0.0.10',
+    version='0.0.12-dev',
     description='',
     long_description='',
     keywords='',
