@@ -8,7 +8,7 @@ package:
 about:
   author: {{ data.get('author')}}
   description: {{ data.get('description')}}
-  license: "{'name': 'release_package', 'version': '0.0.12-dev', 'description': '', 'long_description': '', 'author': '', 'author_email': '', 'url': 'https://github.com/romer8/test2app', 'license': '', 'tethys_version': '>=4.0.0', 'dev_url': 'https://github.com/romer8/test2app.git'}"
+  license: "{'name': 'release_package', 'version': '0.0.12dev', 'description': '', 'long_description': '', 'author': '', 'author_email': '', 'url': 'https://github.com/romer8/test2app', 'license': '', 'tethys_version': '>=4.0.0', 'dev_url': 'https://github.com/romer8/test2app.git'}"
   dev_url: {{ data.get('dev_url') }}
 
 outputs:
